@@ -20,9 +20,9 @@ github -> settings -> Developer settings -> OAuth apps
 ```
 - Edit .env file:
 ```
-AUTH_GITHUB_ID=Ov23li9xyPSE0qFYf8f7
-AUTH_GITHUB_SECRET=bc4739cf487c2b36bf7f30c5a9cafba26d9961a8
-AUTH_SECRET=8d9b5ed86a0ab22ea97d9ea11639a614
+AUTH_GITHUB_ID=***
+AUTH_GITHUB_SECRET=***
+AUTH_SECRET=***
 ```
 
 - Set PostgreSQL DB info:
@@ -35,7 +35,7 @@ POSTGRES_URL_NO_SSL="postgres://default:JSjrNi4XWx6Z@ep-young-smoke-a4lzneqn-poo
 POSTGRES_URL_NON_POOLING="postgres://default:JSjrNi4XWx6Z@ep-young-smoke-a4lzneqn.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"
 POSTGRES_USER="default"
 POSTGRES_HOST="ep-young-smoke-a4lzneqn-pooler.us-east-1.aws.neon.tech"
-POSTGRES_PASSWORD="JSjrNi4XWx6Z"
+POSTGRES_PASSWORD="***"
 POSTGRES_DATABASE="verceldb"
 ```
 ##### Start the app
